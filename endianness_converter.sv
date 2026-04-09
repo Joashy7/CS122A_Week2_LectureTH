@@ -1,9 +1,9 @@
 // Put your code below
 module endianness_converter(
-    input reg clk,
+    input wire clk,
     input int word,
-    input reg endianness_in,
-    input reg endianness_out,
+    input wire endianness_in,
+    input wire endianness_out,
 
     output int word_out
 );
